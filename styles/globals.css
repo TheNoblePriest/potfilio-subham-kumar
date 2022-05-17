@@ -1,3 +1,16 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+@layer components{
+    .social-icons {
+        @apply w-10 h-10 object-cover bg-white rounded-full p-1 hover:animate-pulse cursor-pointer
+    }
+    .social-icon {
+        @apply w-10 h-10 object-cover bg-white rounded-full p-1 hover:animate-pulse cursor-pointer
+    }
+    .select-class{
+        @apply flex  w-full
+    }
+}
